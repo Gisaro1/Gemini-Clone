@@ -1,12 +1,12 @@
 import Header from './Header';
 import Sideabar from './Sidebar';
-import BackGround from './BackGround';
 export default function AppShell(){
     return(
-        <div>
-            <BackGround></BackGround>
-             <Header></Header>
-             <Sideabar></Sideabar>
+        <div className='bg-[#0f1011] h-screen  relative'>
+            <div className='bg-[#17275f] absolute h-[80%] w-[50%] left-[25%] top-[10.5%] border rounded-full blur-[100px]'>
+            </div>
+            <Header></Header>
+            <Sideabar></Sideabar>
         </div>
     )
 }
