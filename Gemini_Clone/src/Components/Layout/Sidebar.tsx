@@ -7,12 +7,16 @@ import Profile from '../../assets/profile-24.png'
 import Search from '../../assets/search-50.png'
 import Setting from '../../assets/settings-50.png'
 import Edit from '../../assets/1edit-32.png'
+import SidePanel from '../../assets/close-pane-50.png'
 
 export default function Sideabar(){
     return(
-      <div className='pt-3 pl-4 flex flex-col w-[4.5%] justify-between bg-[#0f0f0f] h-screen'>
+      <div className='pt-3 pl-4 flex flex-col w-[4.5%] justify-between bg-[#0f0f0f] h-screen hidde'>
         <div>
-            <img src={GeminiOg} alt=""  className='h-7 pt-2.5'/>
+            <div className="group relative">
+                <img src={GeminiOg} alt="" className="absolute object-cover transition-opacity duration-300 group-hover:opacity-0 h-7 pt-2.5"/>
+                <img src={SidePanel} alt="Close" className="object-cover opacity-0 transition-opacity duration-300 group-hover:opacity-100 h-7 pt-2.5"/>
+            </div>
             <img src={Edit} alt="edit" className='h-7 pt-2.5'/>
             <img src={Search} alt="search" className='h-7 pt-2.5'/>
             <img src={Grid} alt="menu" className='h-7 pt-2.5'/>
