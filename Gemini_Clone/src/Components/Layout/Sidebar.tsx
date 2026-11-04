@@ -12,17 +12,17 @@ export default function Sideabar(){
     return(
       <div className='pt-3 pl-4 flex flex-col w-[4.5%] justify-between bg-[#0f0f0f] h-screen'>
         <div>
-            <img src={GeminiOg} alt=""  className='h-7 pt-[10px]'/>
-            <img src={Edit} alt="edit" className='h-7 pt-[10px]'/>
-            <img src={Search} alt="search" className='h-7 pt-[10px]'/>
-            <img src={Grid} alt="menu" className='h-7 pt-[10px]'/>
-            <img src={Banana} alt="pealed" className='h-7 pt-[10px]'/>
-            <img src={Clock} alt="clock" className='h-7 pt-[10px]'/>
-            <img src={Graduo} alt="graduo" className='h-7 pt-[10px]'/>
+            <img src={GeminiOg} alt=""  className='h-7 pt-2.5'/>
+            <img src={Edit} alt="edit" className='h-7 pt-2.5'/>
+            <img src={Search} alt="search" className='h-7 pt-2.5'/>
+            <img src={Grid} alt="menu" className='h-7 pt-2.5'/>
+            <img src={Banana} alt="pealed" className='h-7 pt-2.5'/>
+            <img src={Clock} alt="clock" className='h-7 pt-2.5'/>
+            <img src={Graduo} alt="graduo" className='h-7 pt-2.5'/>
         </div>
         <div className='pb-4'>
-            <img src= {Setting} alt="setting" className='h-7 pt-[10px]' />
-            <img src={Profile} alt="profile pc" className='h-7 pt-[10px]'/>
+            <img src= {Setting} alt="setting" className='h-7 pt-2.5' />
+            <img src={Profile} alt="profile pc" className='h-7 pt-2.5'/>
         </div>
       </div>
     )
