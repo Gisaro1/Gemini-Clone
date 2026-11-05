@@ -18,6 +18,9 @@ import Gsearch from '../../assets/Graysearch-50.png'
 import Gsetting from '../../assets/Graysetting-50.png'
 import Gedit from '../../assets/Grayedit-32.png'
 import Gmore from '../../assets/icons8-more-30.png'
+import Plus from '../../assets/addition-24.png'
+import Book from '../../assets/notebook-24.png'
+import Filter from '../../assets/filter-50.png'
 import {useState} from 'react'
 
 export default function Sideabar(){
@@ -45,7 +48,7 @@ export default function Sideabar(){
        <div className={`pt-3 pl-4 flex-col w-[18.5%] justify-between bg-[#1f1f1f] h-screen text-[#e6e6e6] font-semibold ${isPanelOpen ? 'flex' : 'hidden'}`}>
             <div>
                 <div className='flex justify-between items-center'>
-                    <h1 className='flex items-center pt-2.5 gap-2'><img src={GeminiOg} alt="" className="h-7 "/>Gemini</h1>
+                    <h1 className='flex items-center pt-2.5 gap-2 text-sm'><img src={GeminiOg} alt="" className="h-5 "/>Gemini</h1>
                     <div className=' flex pr-3 gap-3'>
                         <img src={Gsearch} alt="search" className='h-7 pt-2.5'/>
                         <img src={Gsidepanel} alt="close" className='h-7 pt-2.5 cursor-pointer' onClick={() => setIsPanelOpen(false)}/>
@@ -58,10 +61,17 @@ export default function Sideabar(){
                 <h1 className='flex items-center pt-2.5 gap-2 text-sm'><img src={Gclock} alt="clock" className='h-5'/>Schedule</h1>
                 <h1 className='flex items-center pt-2.5 gap-2 text-sm'><img src={Ggraduo} alt="graduo" className='h-5'/>Students</h1>
                 <h1 className='flex items-center pt-2.5 gap-2 text-sm'><img src={Gmore} alt="more" className='h-5'/>More</h1>
+                <h1 className='text-sm pt-7'>Notebooks</h1>
+                <h1 className='flex items-center pt-2.5 gap-2 text-sm'><img src={Plus} alt="addition" className='h-5' /> New notebook</h1>
+                <h1 className='flex items-center pt-2.5 gap-2 text-sm'><img src={Book} alt="book"  className='h-5'/>Recent chat</h1>
+                <div className='flex justify-between pt-4'>
+                    <h1 className='flex items-center text-sm'>All</h1>
+                    <img src={Filter} alt="filter icon"  className='h-4 pr-3'/>
+                </div>
             </div>
-            <div className='pb-4'>
-                <img src= {Gsetting} alt="setting" className='h-7 pt-2.5' />
-                <img src={Gprofile} alt="profile pc" className='h-7 pt-2.5'/>
+            <div className='pb-4 flex justify-between items-center'>
+                <h1 className='flex items-center pt-2.5 gap-2 text-sm'><img src={Gprofile} alt="profile pc" className='h-5 '/>Username</h1>
+                <img src= {Gsetting} alt="setting" className='h-7 pt-2.5 pr-3' />
             </div>
         </div>
       </div>
