@@ -21,3 +21,5 @@ export { default as Gmore } from './icons8-more-30.png';
 export { default as Plus } from './addition-24.png';
 export { default as Book } from './notebook-24.png';
 export { default as Filter } from './filter-50.png';
+export { default as Cheveron} from './chevron-down-24.png'
+export { default as Microphone} from './microphone-48.png'

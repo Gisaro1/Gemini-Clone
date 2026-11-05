@@ -1,5 +1,6 @@
 import Header from './Header';
 import Sideabar from './Sidebar';
+import MainContent from './MainContent';
 export default function AppShell(){
     return(
         <div className='bg-[#0f1011] h-screen  relative'>
@@ -7,6 +8,7 @@ export default function AppShell(){
             </div>
             <Header></Header>
             <Sideabar></Sideabar>
+            <MainContent></MainContent>
         </div>
     )
 }
