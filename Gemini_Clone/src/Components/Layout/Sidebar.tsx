@@ -1,26 +1,7 @@
-import GeminiOg from '../../assets/gemini.svg'
-import Clock from '../../assets/clock-32.png'
-import Graduo from '../../assets/graduation-cap-80.png'
-import Grid from '../../assets/grid-2-24.png'
-import Banana from '../../assets/peeled-banana-64.png'
-import Profile from '../../assets/profile-24.png'
-import Search from '../../assets/search-50.png'
-import Setting from '../../assets/settings-50.png'
-import Edit from '../../assets/1edit-32.png'
-import SidePanel from '../../assets/sidebar-48 (2).png'
-import Gsidepanel from '../../assets/Hgraysidebar-48 (1).png'
-import Gclock from '../../assets/Grayclock-32.png'
-import Ggraduo from '../../assets/Graygraduation-cap-80.png'
-import Ggrid from '../../assets/Graygrid-2-24.png'
-import Gbanana from '../../assets/Graypeeled-banana-64.png'
-import Gprofile from '../../assets/Grayprofile-24.png'
-import Gsearch from '../../assets/Graysearch-50.png'
-import Gsetting from '../../assets/Graysetting-50.png'
-import Gedit from '../../assets/Grayedit-32.png'
-import Gmore from '../../assets/icons8-more-30.png'
-import Plus from '../../assets/addition-24.png'
-import Book from '../../assets/notebook-24.png'
-import Filter from '../../assets/filter-50.png'
+import { 
+  GeminiOg, Clock, Graduo, Grid, Banana, Profile, Search, Setting, Edit, 
+  SidePanel, Gsidepanel, Gclock, Ggraduo, Ggrid, Gbanana, Gprofile, 
+  Gsearch, Gsetting, Gedit, Gmore, Plus, Book, Filter } from '../../assets/index'
 import {useState} from 'react'
 
 export default function Sideabar(){
